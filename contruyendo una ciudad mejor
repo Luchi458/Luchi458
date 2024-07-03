@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Construyendo una ciudad mejor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CONSTRUYENDO UNA CIUDAD MEJOR</h1>
+        <form id="registroForm">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+
+            <label for="ciudad">Ciudad:</label>
+            <input type="text" id="ciudad" name="ciudad" required><br><br>
+
+            <label for="region">Región:</label>
+            <input type="text" id="region" name="region" required><br><br>
+
+            <label for="distrito">Distrito:</label>
+            <input type="text" id="distrito" name="distrito" required><br><br>
+
+            <label for="urbanizacion">Urbanización:</label>
+            <input type="text" id="urbanizacion" name="urbanizacion" required><br><br>
+
+            <label for="necesidad">Elige la necesidad más urgente:</label>
+            <select id="necesidad" name="necesidad">
+                <option value="pistas">Pistas</option>
+                <option value="colegios">Colegios</option>
+                <option value="hospitales">Hospitales</option>
+            </select><br><br>
+
+            <button type="submit">Registrarse y Votar</button>
+        </form>
+
+        <div id="mensaje"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<label for="necesidad">Elige la necesidad más urgente:</label>
+            <select id="necesidad" name="necesidad">
+                <option value="pistas">Pistas</option>
+                <option value="colegios">Colegios</option>
+                <option value="hospitales">Hospitales</option>
+            </select><br><br>
+
+            <button type="submit">Registrarse y Votar</button>
+        </form>
+
+        <div id="mensaje"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
